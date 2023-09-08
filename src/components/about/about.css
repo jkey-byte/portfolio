@@ -65,7 +65,7 @@
 }
 
 .about__paragraph {
-  margin: 2rem 0 2.6rem;
+  margin: 1rem 0 0 0;
   color: var(--color-light);
 }
 
@@ -96,6 +96,7 @@
   .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    margin: 0;
   }
 
   .about__content {

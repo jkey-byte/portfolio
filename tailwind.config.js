@@ -19,7 +19,7 @@ module.exports = {
       width: {
         'container-width-lg': 'var(--container-width-lg)',
         'container-width-md': 'var(--container-width-md)',
-        'container-width-ms': 'var9--container-width-ms)',
+        'container-width-sm': 'var(--container-width-sm)',
       },
     },
   },
