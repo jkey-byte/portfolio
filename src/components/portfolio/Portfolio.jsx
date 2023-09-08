@@ -20,72 +20,84 @@ const Portfolio = () => {
             <Image src={IMG1} alt='' width='' height='' />
           </div>
           <h3>This is a portfolio item</h3>
-          <a href='#' className='btn' target='_blank'>
-            Github
-          </a>
-          <a href='#' className='btn btn-primary' target='_blank'>
-            Live Demo
-          </a>
+          <div className='portfolio__item-cta'>
+            <a href='#' className='btn' target='_blank'>
+              Github
+            </a>
+            <a href='#' className='btn btn-primary' target='_blank'>
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <Image src={IMG2} alt='' width='' height='' />
           </div>
           <h3>This is a portfolio item</h3>
-          <a href='#' className='btn' target='_blank'>
-            Github
-          </a>
-          <a href='#' className='btn btn-primary' target='_blank'>
-            Live Demo
-          </a>
+          <div className='portfolio__item-cta'>
+            <a href='#' className='btn' target='_blank'>
+              Github
+            </a>
+            <a href='#' className='btn btn-primary' target='_blank'>
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <Image src={IMG3} alt='' width='' height='' />
           </div>
           <h3>This is a portfolio item</h3>
-          <a href='#' className='btn' target='_blank'>
-            Github
-          </a>
-          <a href='#' className='btn btn-primary' target='_blank'>
-            Live Demo
-          </a>
+          <div className='portfolio__item-cta'>
+            <a href='#' className='btn' target='_blank'>
+              Github
+            </a>
+            <a href='#' className='btn btn-primary' target='_blank'>
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <Image src={IMG4} alt='' width='' height='' />
           </div>
           <h3>This is a portfolio item</h3>
-          <a href='#' className='btn' target='_blank'>
-            Github
-          </a>
-          <a href='#' className='btn btn-primary' target='_blank'>
-            Live Demo
-          </a>
+          <div className='portfolio__item-cta'>
+            <a href='#' className='btn' target='_blank'>
+              Github
+            </a>
+            <a href='#' className='btn btn-primary' target='_blank'>
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <Image src={IMG5} alt='' width='' height='' />
           </div>
           <h3>This is a portfolio item</h3>
-          <a href='#' className='btn' target='_blank'>
-            Github
-          </a>
-          <a href='#' className='btn btn-primary' target='_blank'>
-            Live Demo
-          </a>
+          <div className='portfolio__item-cta'>
+            <a href='#' className='btn' target='_blank'>
+              Github
+            </a>
+            <a href='#' className='btn btn-primary' target='_blank'>
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <Image src={IMG6} alt='' width='' height='' />
           </div>
           <h3>This is a portfolio item</h3>
-          <a href='#' className='btn' target='_blank'>
-            Github
-          </a>
-          <a href='#' className='btn btn-primary' target='_blank'>
-            Live Demo
-          </a>
+          <div className='portfolio__item-cta'>
+            <a href='#' className='btn' target='_blank'>
+              Github
+            </a>
+            <a href='#' className='btn btn-primary' target='_blank'>
+              Live Demo
+            </a>
+          </div>
         </article>
       </div>
     </section>
