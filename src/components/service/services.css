@@ -68,6 +68,6 @@
 /* ============= Media Queries (small Device ========*/
 @media screen and (max-width: 600px) {
   .services__container {
-    width: 75%;
+    width: 90%;
   }
 }
