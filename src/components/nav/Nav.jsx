@@ -6,9 +6,6 @@ import { RiServiceLine } from 'react-icons/ri';
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('');
-  const handleClick = () => {
-    alert('buttion clicked');
-  };
   return (
     <nav>
       <a href='#' className={activeNav === '#' ? 'active' : ''}>
@@ -16,7 +13,7 @@ const Nav = () => {
       </a>
       <a
         href='#about'
-        onClick={() => setActiveNav('#experience')}
+        onClick={() => setActiveNav('#about')}
         className={activeNav === '#about' ? 'active' : ''}
       >
         <AiOutlineUser />

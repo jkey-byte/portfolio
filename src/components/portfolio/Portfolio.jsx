@@ -13,44 +13,9 @@ const Portfolio = () => {
     {
       id: 1,
       image: IMG1,
-      title: 'portfolio Item',
-      github: '#',
-      demo: '#',
-    },
-    {
-      id: 2,
-      image: IMG2,
-      title: 'portfolio Item',
-      github: '#',
-      demo: '#',
-    },
-    {
-      id: 3,
-      image: IMG3,
-      title: 'portfolio Item',
-      github: '#',
-      demo: '#',
-    },
-    {
-      id: 4,
-      image: IMG4,
-      title: 'portfolio Item',
-      github: '#',
-      demo: '#',
-    },
-    {
-      id: 5,
-      image: IMG5,
-      title: 'portfolio Item',
-      github: '#',
-      demo: '#',
-    },
-    {
-      id: 6,
-      image: IMG6,
-      title: 'portfolio Item',
-      github: '#',
-      demo: '#',
+      title: 'My Portfolio Website',
+      github: 'https://github.com/jkey-byte/portfolio',
+      demo: 'https://levi-johnfavour-portfolio.vercel.app/',
     },
   ];
 

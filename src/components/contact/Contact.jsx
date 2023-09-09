@@ -8,9 +8,11 @@ const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
+    const serviceID = 'service_784nrid';
+    const templateID = 'template_yru7lu2';
+    const publicID = '4bvLuwnLS6mFtXwe3';
     e.preventDefault();
-
-    emailjs.sendForm('service_784nrid', 'service_784nrid', form.current, '4bvLuwnLS6mFtXwe3').then(
+    emailjs.sendForm(serviceID, templateID, form.current, publicID).then(
       (result) => {
         console.log(result.text);
       },
@@ -55,11 +57,8 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail}>
           <input type='text' name='name' placeholder='Your Full Name' required />
           <input type='email' name='email' placeholder='Your Email' required />
-          <input type='text' name='subject' placeholder='Subject' required />
           <textarea name='message' rows='7' placeholder='Your Messgae' required />
-          <button type='submit' className='btn btn-primary'>
-            Send Message
-          </button>
+          <input type='submit' className='btn btn-primary' value='Send Message' />
         </form>
       </div>
     </section>
