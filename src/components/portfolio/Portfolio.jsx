@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../../public/assets/portfolio1.jpg';
-import IMG2 from '../../../public/assets/Netflix2.jpg';
+import IMG2 from '../../../public/assets/portfolio2.jpg';
 import Image from 'next/image';
 
 const Portfolio = () => {
