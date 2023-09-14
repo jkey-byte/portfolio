@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../../public/assets/portfolio1.jpg';
-import IMG2 from '../../../public/assets/portfolio2.jpg';
+import IMG2 from '../../../public/assets/Netflix.jpg';
 import IMG3 from '../../../public/assets/portfolio3.jpg';
 import IMG4 from '../../../public/assets/portfolio4.jpg';
 import IMG5 from '../../../public/assets/portfolio5.png';
@@ -16,6 +16,13 @@ const Portfolio = () => {
       title: 'My Portfolio Website',
       github: 'https://github.com/jkey-byte/portfolio',
       demo: 'https://levi-johnfavour-portfolio.vercel.app/',
+    },
+    {
+      id: 2,
+      image: IMG1,
+      title: 'Netflix UI',
+      github: 'https://github.com/jkey-byte/netflix-ui',
+      demo: 'https://netflix-ui-levi-john-favour.vercel.app/',
     },
   ];
 
