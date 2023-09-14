@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../../public/assets/portfolio1.jpg';
-import IMG2 from '../../../public/assets/Netflix2.jpg';
+// import IMG2 from '../../../public/assets/Netflix2.jpg';
 import Image from 'next/image';
 
 const Portfolio = () => {
@@ -12,13 +12,6 @@ const Portfolio = () => {
       title: 'My Portfolio Website',
       github: 'https://github.com/jkey-byte/portfolio',
       demo: 'https://levi-johnfavour-portfolio.vercel.app/',
-    },
-    {
-      id: 2,
-      image: IMG2,
-      title: 'Netflix UI',
-      github: 'https://github.com/jkey-byte/netflix-ui',
-      demo: 'https://netflix-ui-levi-john-favour.vercel.app/',
     },
   ];
 
