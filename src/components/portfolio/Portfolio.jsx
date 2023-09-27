@@ -24,7 +24,7 @@ const Portfolio = () => {
     {
       id: 3,
       image: IMG3,
-      title: 'Car Showcase Site',
+      title: 'Car Showcase Web-Site',
       github: 'https://github.com/jkey-byte/car-showcase',
       demo: 'https://car-showcase-site.vercel.app/',
     },
